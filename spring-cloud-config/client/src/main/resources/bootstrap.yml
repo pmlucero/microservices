@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo-client
+  profiles:
+    active: latam
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: user
+      password: secret
+      fail-fast: true
+
+server:
+  port: 9096

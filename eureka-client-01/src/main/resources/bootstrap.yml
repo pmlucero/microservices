@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo-eureka-subject
+  profiles:
+    active: subject
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: user
+      password: secret
+      fail-fast: true
